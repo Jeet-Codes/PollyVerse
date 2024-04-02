@@ -10,7 +10,7 @@ const Stats = () => {
       {stats.map((stat) => (
         <div key={stat.id} className={`flex-1 flex justify-start items-center flex-row m-3`} >
           <ScrollTrigger onEnter={()=>setenter(true)} onExit={()=>setenter(false)}>
-           { enter &&<CountUp className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white sm:text-2xl" start={0} end={1500} duration={2} delay={0} />
+           { enter &&<CountUp className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white sm:text-2xl" start={0} end={300} duration={2} delay={0} />
 } <span className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white sm:text-2xl">+</span>
           </ScrollTrigger>
           <p className="font-poppins font-normal xs:text-[20.45px] text-[15.45px] xs:leading-[26.58px] leading-[21.58px] text-gradient uppercase ml-3">
