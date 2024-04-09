@@ -28,7 +28,7 @@ const Login = () => {
       
     </div>
     
-    <div className='w-[500px] rounded-2xl m-4 py-5 -ml-[115px] md:ml-[100px]' id='loginform'>
+    <div className='w-[500px] rounded-2xl m-4 py-5 -ml-[135px] md:ml-[100px]' id='loginform'>
     <form>
     <div class=" px-8 mt-3">
                 <label for="email" class="block text-white text-sm font-bold mb-2">Email Address</label>
