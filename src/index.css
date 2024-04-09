@@ -138,3 +138,32 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+#loginform{
+  background: rgb(30,27,163);
+  background: linear-gradient(180deg, rgba(30,27,163,1) 21%, rgba(22,21,67,1) 60%);
+}
+#main{
+  /* background-image: url('./assets//Group.png'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+}
+#btn-grad {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+  margin: 10px;
+  padding: 7px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+#btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #ffffff98;
+  text-decoration: none;
+}

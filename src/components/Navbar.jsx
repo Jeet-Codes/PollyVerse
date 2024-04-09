@@ -2,17 +2,20 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center navbar bg-transparent" >
       {/* <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" /> */}
       <h3 className="text-4xl text-white">3D render</h3>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <li className="font-poppins font-normal cursor-pointer text-[16px] text-gray-200 mr-10"><Link to={'/'}>Home</Link></li>
+
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -24,6 +27,7 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
+        <li className="font-poppins font-normal cursor-pointer text-[16px] text-gray-200 ml-10"><Link to={'/login'}>Login</Link></li>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -40,6 +44,7 @@ const Navbar = () => {
           } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
+      <li className="font-poppins font-normal cursor-pointer text-[16px] text-gray-200 mb-5"><Link to={'/'}>Home</Link></li>
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
@@ -48,9 +53,11 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`/${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+             <li className="font-poppins font-normal cursor-pointer text-[16px] text-gray-200 mt-3 "><Link to={'/login'}>Login</Link></li>
+
           </ul>
         </div>
       </div>

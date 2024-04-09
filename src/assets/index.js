@@ -27,6 +27,8 @@ import banner from "./banner.jpg";
 import banner1 from "./banner1.jpg";
 import banner2 from "./banner2.png";
 import respon from './respon.png';
+import loginpage from './loginpage.png'
+import Group from './Group.png'
 export {
   airbnb,
   bill,
@@ -41,6 +43,7 @@ export {
   send,
   banner,
   shield,
+  loginpage,
   star,
   menu,
   close,
@@ -56,5 +59,6 @@ export {
   people02,
   people03,
   banner1,
-  banner2
+  banner2,
+  Group
 };
