@@ -35,7 +35,9 @@ const Navbar = () => {
         </li>
         <br />
         <span className="w-full h-[10px] bg-blue-400 inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-
+        {/* <li className="font-poppins font-normal cursor-pointer text-[16px] text-gray-200 mb-5">
+              <Link to={"/"}>Home</Link>
+            </li> */}
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}

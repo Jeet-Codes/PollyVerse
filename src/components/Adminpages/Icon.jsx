@@ -29,9 +29,10 @@ export const icon2=()=>{
 export const icon3=()=>{
     return(
         <>
-    <lord-icon
-    src="https://cdn.lordicon.com/ukwexxlc.json"
+  <lord-icon
+    src="https://cdn.lordicon.com/nlmjynuq.json"
     trigger="hover"
+    stroke="bold"
     >
 </lord-icon>
 </>
