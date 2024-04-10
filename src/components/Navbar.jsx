@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar bg-transparent">
       {/* <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" /> */}
-      <div className="text-2xl text-white flex  justify-center items-center">
+      <div className="text-[20px] text-white flex  justify-center items-center">
       <lord-icon
     src="https://cdn.lordicon.com/pqavmhwu.json"
     trigger="hover"
