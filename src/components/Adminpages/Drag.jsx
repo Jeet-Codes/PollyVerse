@@ -49,11 +49,11 @@ function Drag() {
           multiple
           onChange={handleFileInputChange}
         />
-        <label htmlFor="fileInput">or click to browse</label>
+        <label htmlFor="fileInput" className=''>or click to browse</label>
       </div>
       {files.length > 0 && (
         <div className="file-list">
-          <h2>Uploaded Files:</h2>
+          <h2 className='md:text-2xl'>Uploaded Files:</h2>
           <ul>
             {files.map((file, index) => (
               <li key={index}>{file.name}</li>
