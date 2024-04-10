@@ -1,29 +1,26 @@
 import React, { useEffect, useState } from 'react'
 import InAppLoader from '../loader/InAppLoader';
 import { HiMenuAlt3 } from "react-icons/hi";
-import { MdOutlineDashboard } from "react-icons/md";
 import { RiSettings4Line } from "react-icons/ri";
-import { TbReportAnalytics } from "react-icons/tb";
 import { BiLogOutCircle } from "react-icons/bi";
-import { AiOutlineUser, AiOutlineHeart } from "react-icons/ai";
-import { FiMessageSquare, FiFolder, FiShoppingCart } from "react-icons/fi";
 import { CiSaveUp2 } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import { icon1, icon2, icon3, icon4, icon5, icon6, icon7 } from './Icon';
 import Headder from '../Headder';
 // import Headder from './Headder';
 export default function Layout({children}) {
 
-  document.title = "HR -[Placement Module]";
+  document.title = "Admin Panel";
   const [isLoading,setisLoading]=useState(false);
   const menus = [
-    { name: "Home", link: "/home", icon: MdOutlineDashboard },
-    { name: "Profile", link: "/profile", icon: AiOutlineUser },
-    { name: "Messages", link: "/message", icon: FiMessageSquare },
+    { name: "Home", link: "/home", icon: icon1 },
+    { name: "Profile", link: "/profile", icon: icon2 },
+    { name: "Messages", link: "/message", icon: icon3 },
     
-    { name: "Drag and Drop", link: "/drag", icon: FiFolder },
-    { name: "Saved", link: "/save", icon: CiSaveUp2 },
-    { name: "Setting", link: "/setting", icon: RiSettings4Line },
-    { name: "Logout", link: "/", icon: BiLogOutCircle },
+    { name: "Drag and Drop", link: "/drag", icon: icon4 },
+    { name: "Saved", link: "/save", icon: icon5 },
+    { name: "Setting", link: "/setting", icon: icon6 },
+    { name: "Logout", link: "/", icon: icon7 },
   ];
   const [open, setOpen] = useState(true);
   
@@ -42,7 +39,9 @@ export default function Layout({children}) {
       <InAppLoader/>
       :
       <>
+ 
     <section className="flex gap-6">
+  
       <div
         className={`bg-[#0e0e0e] min-h-screen ${
           open ? "w-72" : "w-16"
