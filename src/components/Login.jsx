@@ -39,7 +39,7 @@ const Login = () => {
                 <input type="password" id="password" name="password" class="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500" placeholder="Enter your password"/>
             </div>
             <div className='mt-0 flex justify-start mx-4'>
-           <Link to={'/dashboard'} id='btn-grad'>Login</Link>
+           <Link to={'/home'} id='btn-grad'>Login</Link>
             </div>
     </form>
     </div>
