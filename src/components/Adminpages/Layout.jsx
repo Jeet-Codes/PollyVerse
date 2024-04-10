@@ -48,7 +48,7 @@ export default function Layout({children}) {
         } duration-500 text-gray-100 px-4`}
       >
         <div className="py-3 flex justify-end">
-        <div className='font-bold text-[25px] mr-2'>
+        <div className='font-bold md:text-[25px]  mr-2'>
           {open?'ADMIN PANEL':''}
         </div>
           <HiMenuAlt3

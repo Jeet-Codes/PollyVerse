@@ -9,7 +9,9 @@ import Message from "./components/Adminpages/Message";
 import Drag from "./components/Adminpages/Drag";
 import Setting from "./components/Adminpages/Setting";
 import Saved from "./components/Adminpages/Saved";
+
 const App = () => (
+  
   <BrowserRouter>
   
   <div className="bg-primary w-full overflow-hidden">
