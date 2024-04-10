@@ -28,17 +28,13 @@ export default function Layout({children}) {
     setisLoading(true);
     setTimeout(()=>{
     setisLoading(false)
-    },200)
+    },300)
 }, [])
 
 
   return (
     <>
-    {
-      isLoading?
-      <InAppLoader/>
-      :
-      <>
+    
 
     <section className="flex">
   
@@ -88,12 +84,19 @@ export default function Layout({children}) {
           ))}
         </div>
       </div>
+      {
+      isLoading?
+      <InAppLoader/>
+      :
+      <>
       <div className=" text-xl text-gray-900 bg-white w-full font-semibold">
+        
         {children}
       </div>
-    </section>
-    </>
+      </>
      }
+    </section>
+   
     </>
   )
 }
