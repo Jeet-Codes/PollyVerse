@@ -7,8 +7,8 @@ const Avtar = () => {
   return (
     <Layout>
       <Manager>
- <div className="bg-gray-100">
-  <div className="container mx-auto -mt-40">
+ <div className="bg-gray-100 ">
+  <div className="container mx-auto ">
     <div className="max-w-md mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
       <div className="md:flex">
         <div className="md:flex-shrink-0">
