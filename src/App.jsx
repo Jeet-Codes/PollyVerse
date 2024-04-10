@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import {  Navbar, Hero } from "./components";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./components/Login";
 import Layout from "./components/Adminpages/Layout";
@@ -10,7 +10,6 @@ import Drag from "./components/Adminpages/Drag";
 import Setting from "./components/Adminpages/Setting";
 import Saved from "./components/Adminpages/Saved";
 import Manger from "./components/Adminpages/Manger";
-
 const App = () => (
   
   <BrowserRouter>
@@ -30,6 +29,7 @@ const App = () => (
       <Route element={<Drag/>} path={'/drag'}/>
       <Route element={<Setting/>} path={'/setting'}/>
       <Route element={<Saved/>} path={'/save'}/>
+     
     </Routes>
 
   
