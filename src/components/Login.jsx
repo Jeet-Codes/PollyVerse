@@ -40,6 +40,7 @@ const Login = () => {
             </div>
             <div className='mt-0 flex justify-start mx-4'>
            <Link to={'/home'} id='btn-grad'>Login</Link>
+           <Link to={'/'} id='btn-grad1'>Back to Home</Link>
             </div>
     </form>
     </div>

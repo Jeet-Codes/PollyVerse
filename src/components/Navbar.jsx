@@ -69,7 +69,7 @@ const Navbar = () => {
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             <li className="font-poppins font-normal cursor-pointer text-[16px] text-gray-200 mb-5">
-              <Link to={"/"}>Home</Link>
+              <a href={'/'}>Home</a>
             </li>
             {navLinks.map((nav, index) => (
               <li
