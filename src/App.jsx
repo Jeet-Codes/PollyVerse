@@ -9,6 +9,7 @@ import Message from "./components/Adminpages/Message";
 import Drag from "./components/Adminpages/Drag";
 import Setting from "./components/Adminpages/Setting";
 import Saved from "./components/Adminpages/Saved";
+import Manger from "./components/Adminpages/Manger";
 
 const App = () => (
   
@@ -19,6 +20,7 @@ const App = () => (
 
     <Routes>
       <Route element={<Login/>} path={'/login'}/>
+      
       <Route element={<Hero/>} path={'/'}/>
       <Route element={<Layout/>} path={'/dashboard'}/>
       {/* adminpage */}

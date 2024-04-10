@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './drag.css';
 import Layout from './Layout';
+import Manager from './Manger';
 
 function Drag() {
   const [dragging, setDragging] = useState(false);
@@ -35,8 +36,11 @@ function Drag() {
 
   return (
     <Layout className="App">
-      <div
-        className={`drop-zone ${dragging ? 'dragging' : ''} mt-52`}
+      <Manager>
+     <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+      <div 
+      
+        className={`drop-zone ${dragging ? 'dragging' : ''} drag`}
         onDragEnter={handleDragEnter}
         onDragOver={handleDragOver}
         onDragLeave={handleDragLeave}
@@ -61,6 +65,7 @@ function Drag() {
           </ul>
         </div>
       )}
+      </Manager>
     </Layout>
   );
 }

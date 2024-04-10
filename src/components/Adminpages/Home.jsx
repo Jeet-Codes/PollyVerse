@@ -1,9 +1,14 @@
 import React from 'react'
 import Layout from './Layout'
+import Manager from './Manger'
 
 const Home = () => {
   return (
-    <Layout>Home</Layout>
+    <Layout>
+      <Manager>
+      Home
+      </Manager>
+      </Layout>
   )
 }
 

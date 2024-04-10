@@ -40,7 +40,7 @@ export default function Layout({children}) {
       :
       <>
 
-    <section className="flex gap-6">
+    <section className="flex">
   
       <div
         className={`bg-[#0e0e0e] min-h-screen ${
