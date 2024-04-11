@@ -48,7 +48,7 @@ const Manager = ({children}) => {
         className='pointer-events-none absolute -inset-px opacity-0 transition duration-300'
         style={{
           opacity,
-          background: `radial-gradient(450px circle at ${position.x}px ${position.y}px, rgba(255,182,255,.1), transparent 40%)`,
+          background: `radial-gradient(300px circle at ${position.x}px ${position.y}px, rgba(255,182,255,.1), transparent 40%)`,
         }}
       />
       <p className='text-sm text-gray-200'>{children}</p>
