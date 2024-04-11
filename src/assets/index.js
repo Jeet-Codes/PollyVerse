@@ -29,6 +29,7 @@ import banner2 from "./banner2.png";
 import respon from './respon.png';
 import loginpage from './loginpage.png'
 import Group from './Group.png'
+import robot1 from './robot1.png'
 export {
   airbnb,
   bill,
@@ -60,5 +61,6 @@ export {
   people03,
   banner1,
   banner2,
-  Group
+  Group,
+  robot1
 };
