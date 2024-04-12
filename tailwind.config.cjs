@@ -10,9 +10,13 @@ module.exports = {
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
+      animation: {
+        'pulse-slow': 'pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)',
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      
     },
     screens: {
       xs: "480px",
@@ -23,5 +27,6 @@ module.exports = {
       xl: "1700px",
     },
   },
+  
   plugins: [],
 };
