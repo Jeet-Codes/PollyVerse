@@ -10,6 +10,7 @@ import Drag from "./components/Adminpages/Drag";
 import Setting from "./components/Adminpages/Setting";
 import Saved from "./components/Adminpages/Saved";
 import Manger from "./components/Adminpages/Manger";
+import { SpotlightPreview } from "./components/showcase/ShowCase";
 const App = () => (
   
   <BrowserRouter>
@@ -29,6 +30,7 @@ const App = () => (
       <Route element={<Drag/>} path={'/drag'}/>
       <Route element={<Setting/>} path={'/setting'}/>
       <Route element={<Saved/>} path={'/save'}/>
+      <Route element={<SpotlightPreview/>} path={'/show'}/>
      
     </Routes>
 

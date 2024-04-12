@@ -11,10 +11,22 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       animation: {
-        'pulse-slow': 'pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)',
+        spotlight: "spotlight 2s ease .75s 1 forwards",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+      },
+      keyframes: {
+        spotlight: {
+          "0%": {
+            opacity: 0,
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate(-50%,-40%) scale(1)",
+          },
+        },
       },
       
     },
@@ -28,5 +40,8 @@ module.exports = {
     },
   },
   
+  
   plugins: [],
 };
+
+
