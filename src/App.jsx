@@ -11,6 +11,8 @@ import Setting from "./components/Adminpages/Setting";
 import Saved from "./components/Adminpages/Saved";
 import Manger from "./components/Adminpages/Manger";
 import { SpotlightPreview } from "./components/showcase/ShowCase";
+import Models from "./components/Adminpages/Logout";
+
 const App = () => (
   
   <BrowserRouter>
@@ -31,6 +33,8 @@ const App = () => (
       <Route element={<Setting/>} path={'/setting'}/>
       <Route element={<Saved/>} path={'/save'}/>
       <Route element={<SpotlightPreview/>} path={'/show'}/>
+      <Route element={<Models/>} path={'/model'}/>
+      
      
     </Routes>
 

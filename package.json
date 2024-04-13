@@ -11,7 +11,9 @@
   "dependencies": {
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
+    "@radix-ui/react-alert-dialog": "^1.0.5",
     "@shoelace-style/shoelace": "^2.15.0",
+    "antd": "^5.16.1",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.28",
     "react": "^18.2.0",

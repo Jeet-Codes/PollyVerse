@@ -20,7 +20,7 @@ export default function Layout({children}) {
     { name: "Drag and Drop", link: "/drag", icon: icon4 },
     { name: "Saved", link: "/save", icon: icon5 },
     { name: "Setting", link: "/setting", icon: icon6 },
-    { name: "Logout", link: "/", icon: icon7 },
+    { name: "Logout", link: "/model", icon: icon7 },
   ];
   const [open, setOpen] = useState(true);
   
