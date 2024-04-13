@@ -12,6 +12,7 @@ import Saved from "./components/Adminpages/Saved";
 import Manger from "./components/Adminpages/Manger";
 import { SpotlightPreview } from "./components/showcase/ShowCase";
 import Models from "./components/Adminpages/Logout";
+import Grid from "./components/showcase/Grid";
 
 const App = () => (
   
@@ -34,6 +35,7 @@ const App = () => (
       <Route element={<Saved/>} path={'/save'}/>
       <Route element={<SpotlightPreview/>} path={'/show'}/>
       <Route element={<Models/>} path={'/model'}/>
+      <Route element={<Grid/>} path={'/grid'}/>
       
      
     </Routes>
