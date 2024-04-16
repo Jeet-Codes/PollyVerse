@@ -45,7 +45,7 @@ To work with the PollyVerse React project hosted on GitHub, follow these steps:
      ```bash
      npm run start
      ```
-   - This will start the development server, and you can access the app in your browser at [http://localhost:3000/](http://localhost:3000/).
+   - This will start the development server, and you can access the app in your browser at [http://localhost:5173/](http://localhost:5173/).
 
 5. **Explore and Modify**:
    - You're all set! Now you can explore the code, make changes, and see the live updates in your browser.
