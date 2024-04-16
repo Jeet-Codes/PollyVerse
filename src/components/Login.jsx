@@ -34,7 +34,7 @@ const Login = () => {
             className="w-[500px] rounded-2xl m-4 py-5 -ml-[135px] md:ml-[100px]"
             id="loginform"
           >
-            <form>
+            
               <div class=" px-8 mt-3">
                 <label
                   for="email"
@@ -45,7 +45,7 @@ const Login = () => {
                 <input
                   type="email"
                   id="email"
-                  name="email"
+                 
                   class="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500"
                   placeholder="Enter your email"
                 />
@@ -60,7 +60,7 @@ const Login = () => {
                 <input
                   type="password"
                   id="password"
-                  name="password"
+                 
                   class="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500"
                   placeholder="Enter your password"
                 />
@@ -81,7 +81,7 @@ const Login = () => {
            
                
               </div>
-            </form>
+        
           </div>
         </div>
       </div>

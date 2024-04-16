@@ -6,12 +6,15 @@ import Grid from "./Grid";
 
 export function SpotlightPreview() {
   return (
-    <Grid>
-    <div className="text-white h-[100%] w-full rounded-md flex md:items-center md:justify-center antialiased bg-grid-white/[0.02] relative overflow-hidden">
-      <Spotlight
+    <>
+    <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="blue"
       />
+   
+    <Grid>
+    <div className="text-white h-[100%] w-full rounded-md flex md:items-center md:justify-center antialiased bg-grid-white/[0.02] relative overflow-hidden">
+      
       
       <div className="container md:p-4 px-10 max-w-7xl  mx-auto relative  w-full pt-20 md:pt-0 mt-10">
         <h1 className="text-4xl md:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
@@ -37,5 +40,6 @@ export function SpotlightPreview() {
       </div>
     </div>
     </Grid>
+    </>
   );
 }
